@@ -1,3 +1,5 @@
+from pip.backwardcompat import raw_input
+from sys import argv
 print("hello word")
 
 # 字符串格式化
@@ -16,5 +18,13 @@ print(formatter % (1, 2, 3, 4))
 # 三个引号中可以打印引号
 str = """ hello "world" \n """
 print(str)
+
+# print("input:")
+#输入
+# input=raw_input("input name:")
+# print(input)
+script = argv
+print(script)
+
 
 
